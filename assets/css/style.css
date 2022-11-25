@@ -1,3 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Lato, sans-serif;
+    font-weight: 200;
+}
+
+h1, h2 {
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #4d2600;
+    font-weight: bold;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+}
+
+/* navigation styles */
+
+#menu {
+    float: right;
+    display: inline;
+    font-size: 110%;
+    letter-spacing: 1px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #4d2600; 
+}
+
+.active {
+    border-bottom: 1px solid #4d2600;
+}
+
+#hero-image {
+    clear:both;
+}
+
+.love-bake {
+    display: inline-block;
+    height: 375px;
+    width: 33%;
+}
+
+#love-bake-1 {
+    background: url('../images/bake12.jpg') no-repeat center center;
+}
+
+#love-bake-2 {
+    background: url('../images/bake10.jpg') no-repeat center center;
+}
+
+#love-bake-3 {
+    background: url('../images/bake11.jpg') no-repeat center center;
 }
