@@ -154,7 +154,51 @@ hr {
     clear: both;
 }
 
-.wrapper {
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
+#gallery {
+    clear: both;
 }
+
+.gallery-picture {
+    display: inline-block;
+    height: 225px;
+    width: 21%;
+    margin-left: 3px;
+    
+}
+
+.gallery-text {
+    display: inline-block;
+    height: 225px;
+    width: 21%;
+    margin-left: 3px;
+    text-align: center;
+    
+}
+
+#gallery-1 {
+    background: url('../images/bake6.jpg') no-repeat center center;
+    background-size: contain;
+    border: #4d2600 solid 2px;
+    border-radius: 4px;
+}
+
+#gallery-2 {
+    background: url('../images/bake13.jpg') no-repeat center center;
+    background-size: contain;
+    border: #4d2600 solid 2px;
+    border-radius: 4px;
+}
+
+#gallery-3 {
+    background: url('../images/bake2.jpg') no-repeat center center;
+    background-size: contain;
+    border: #4d2600 solid 2px;
+    border-radius: 4px;
+}
+
+#gallery-4 {
+    background: url('../images/bake4.jpg') no-repeat center center;
+    background-size: contain;
+    border: #4d2600 solid 2px;
+    border-radius: 4px;
+} 
