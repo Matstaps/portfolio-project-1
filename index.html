@@ -111,17 +111,28 @@
     </section>
     <section>
         <h2 class="section-header">Contact Us!</h2>
-        <h3>If you wish to find out more about our bakes or classes, please contact us below</h3>
+        <h3 id="form-primer">If you wish to find out more about our bakes or classes, please contact us below</h3>
         
-        <form>
-            <label for="first-name">First Name:</label>
+        <form id="form-style">
+            <div class="form-child">
+            <label for="first-name">First Name: </label>
             <input id="first-name" name="first_name" type="text" class="text-input" required>
+            </div>
 
-            <label for="last-name">Last Name:</label>
+            <div class="form-child">
+            <label for="last-name">Last Name: </label>
             <input id="last-name" name="last_name" type="text" class="text-input" required>
+            </div>
+            
+            <div class="form-child">
 
-            <label for="email">email:</label>
+            <label for="email">email:   </label>
             <input id="email" name="email-address" type="email" class="text-input" required>
+
+            </div>
+            Please specify the class you are interested in:
+            <div class="form-child">
+                
 
             <label>Challah</label>
             <input id="challah" type="radio" value="challah" name="bake-preference" required>
@@ -135,13 +146,10 @@
             <label>Other</label>
             <input id="other" type="radio" value="other" name="bake-preference">
 
-            <input class="submit-button" type="submit" value="thanks">
-
-
-
-
-
-
+            </div>
+            <div class="form-child">
+            <input class="submit-button" type="submit" value="Submit">
+            </div>
         </form>
     </section>
     <footer>Address and SM</footer>
