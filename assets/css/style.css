@@ -145,7 +145,7 @@ hr {
 }
 
 #center-image {
-    background: url(../images/bake2.jpg) no-repeat center center;
+    background: url(../images/bake3.jpg) no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
@@ -155,50 +155,85 @@ hr {
 }
 
 #gallery {
-    clear: both;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 
 .gallery-picture {
     display: inline-block;
     height: 225px;
-    width: 21%;
-    margin-left: 3px;
-    
+    text-align: center;
+    vertical-align: middle;
 }
 
 .gallery-text {
     display: inline-block;
-    height: 225px;
-    width: 21%;
-    margin-left: 3px;
+    min-height: 225px;
     text-align: center;
-    
+    vertical-align: middle;
+}
+
+.gallery-text p {
+    line-height: 200px;
 }
 
 #gallery-1 {
-    background: url('../images/bake6.jpg') no-repeat center center;
-    background-size: contain;
-    border: #4d2600 solid 2px;
-    border-radius: 4px;
+    background: url('../images/bake6.jpg') no-repeat center center;  
+    height: 100%;  
 }
 
 #gallery-2 {
     background: url('../images/bake13.jpg') no-repeat center center;
-    background-size: contain;
-    border: #4d2600 solid 2px;
-    border-radius: 4px;
 }
 
 #gallery-3 {
     background: url('../images/bake2.jpg') no-repeat center center;
-    background-size: contain;
-    border: #4d2600 solid 2px;
-    border-radius: 4px;
 }
 
 #gallery-4 {
     background: url('../images/bake4.jpg') no-repeat center center;
-    background-size: contain;
-    border: #4d2600 solid 2px;
-    border-radius: 4px;
 } 
+
+.cook-class {
+    display: inline-block;
+    height: 225px;
+    width: 33%;
+
+}
+
+.cook-class-1 {
+    background-color: #b35900;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.cook-class-2 {
+    background-color: #4d2600;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.cook-class h4 {
+    text-align: center;
+    text-decoration: underline;
+    color: #fff;
+    vertical-align: auto;
+    padding: 30px 0 30px 0;
+}
+
+.cook-class h5 {
+    text-align: center;
+    color: #fff;
+    vertical-align: auto;
+    padding: 15px 0 15px 0;
+}
+
+.cook-class-text {
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
