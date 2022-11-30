@@ -298,3 +298,30 @@ footer > p {
     padding: 2px;
     color: #fff
 }
+
+/* div experiment */
+.pic-container {
+    display: flex;
+    
+}
+
+.pic-child {
+    flex: 33%;
+    
+}
+
+#gallery-demo {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 225px;
+    object-fit: contain;
+}
+
+#gallery-demo img {
+    max-width: 100%;
+}
+
+
