@@ -299,17 +299,6 @@ footer > p {
     color: #fff
 }
 
-/* div experiment */
-.pic-container {
-    display: flex;
-    
-}
-
-.pic-child {
-    flex: 33%;
-    
-}
-
 #gallery-demo {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
