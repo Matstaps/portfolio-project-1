@@ -155,6 +155,8 @@ hr {
     clear: both;
 }
 
+/* commented out to remove and test new grid
+
 #gallery {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
@@ -197,6 +199,8 @@ hr {
 #gallery-4 {
     background: url('../images/bake4.jpg') no-repeat center center;
 } 
+
+*/
 
 .cook-class {
     display: inline-block;
@@ -305,12 +309,13 @@ footer > p {
     padding: 0;
     margin: 0;
     width: 100%;
-    height: 225px;
     object-fit: contain;
 }
 
 #gallery-demo img {
+    display: inline-block;
     max-width: 100%;
+    height: 225px;
 }
 
 
