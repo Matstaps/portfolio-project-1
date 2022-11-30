@@ -65,6 +65,7 @@ h1, h2 {
     display: inline-block;
     height: 375px;
     width: 33%;
+    border-radius: 10%;
 }
 
 #love-bake-1 {
@@ -138,16 +139,16 @@ hr {
     height: 300px;
     padding: 30px;
     border-style: solid;
-    border-color: #4d2600;
+    border-color: #b35900;
     border-width: 2px;
-    border-radius: 50%;
+    border-radius: 15%;
     margin: 0 auto;
 }
 
 #center-image {
     background: url(../images/bake3.jpg) no-repeat center center;
     height: 100%;
-    border-radius: 50%;
+    border-radius: 15%;
 }
 
 .picture-row {
