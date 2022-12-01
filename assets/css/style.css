@@ -64,7 +64,8 @@ h1, h2 {
 .love-bake {
     display: inline-block;
     height: 375px;
-    width: 33%;
+    width: 32%;
+    margin-left: 5px;
     border-radius: 10%;
 }
 
@@ -205,7 +206,7 @@ hr {
 .cook-class {
     display: inline-block;
     height: 225px;
-    width: 33%;
+    width: 32%;
 
 }
 
@@ -214,6 +215,7 @@ hr {
     text-align: center;
     color: #fff;
     border-radius: 3px;
+    margin-left: 2px;
 }
 
 .cook-class-2 {
@@ -221,6 +223,7 @@ hr {
     text-align: center;
     color: #fff;
     border-radius: 3px;
+    margin-left: 2px;
 }
 
 .cook-class h4 {
@@ -301,6 +304,10 @@ footer > p {
     margin: 1px;
     padding: 2px;
     color: #fff
+}
+
+#gallery-head {
+    margin-left: 30px;
 }
 
 #gallery-demo {
