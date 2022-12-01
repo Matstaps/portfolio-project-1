@@ -433,3 +433,49 @@ footer > p {
     }
 }
 
+/*  500 */
+
+@media screen and (max-width: 500px) {
+
+    .love-bake {
+        display: inline-block;
+        height: 150px;
+        width: 30%;
+        margin-left: 5px;
+        border-radius: 10%;
+        
+    }
+
+    #gallery-head {
+        width: 65%;
+        height: 2100px;
+        margin: 0 auto;
+    }
+
+    #gallery-demo {
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 0;
+        margin: 0 auto;
+        width: 100%;
+        object-fit: contain;
+        text-align: center;
+    }
+
+    #center-container {
+        max-width: 75%;
+        height: 200px;
+        
+    }
+
+    #form-style {
+        max-width: 100%;
+        margin: 0 auto;
+        border:#4d2600 solid 1px;
+        background-color: #b35900;
+        border-radius: 4px;
+        
+    }
+
+}
+
