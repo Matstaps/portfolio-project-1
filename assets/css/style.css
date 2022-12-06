@@ -230,14 +230,12 @@ hr {
     text-align: center;
     text-decoration: underline;
     color: #fff;
-    vertical-align: auto;
     padding: 30px 0 30px 0;
 }
 
 .cook-class h5 {
     text-align: center;
     color: #fff;
-    vertical-align: auto;
     padding: 15px 0 15px 0;
 }
 
@@ -484,7 +482,7 @@ footer > p {
         border:#4d2600 solid 1px;
         background-color: #b35900;
         border-radius: 4px;
-        
+        color: #fff;
     }
 
 }
