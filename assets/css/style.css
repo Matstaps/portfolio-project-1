@@ -61,6 +61,10 @@ h1, h2 {
     clear:both;
 }
 
+#hero-image > h2 {
+    display: none;
+}
+
 .love-bake {
     display: inline-block;
     height: 375px;
