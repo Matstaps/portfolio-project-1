@@ -11,7 +11,8 @@ body {
     font-weight: 200;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -34,7 +35,8 @@ h1, h2 {
     letter-spacing: 1px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -50,7 +52,7 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #4d2600; 
+    border-bottom: 1px solid #4d2600;
 }
 
 .active {
@@ -58,10 +60,10 @@ h1, h2 {
 }
 
 #hero-image {
-    clear:both;
+    clear: both;
 }
 
-#hero-image > h2 {
+#hero-image>h2 {
     display: none;
 }
 
@@ -113,7 +115,7 @@ h1, h2 {
     width: 60%;
     float: right;
     line-height: 30px;
-    clear:both;
+    clear: both;
     margin-bottom: 30px;
 }
 
@@ -121,7 +123,7 @@ h1, h2 {
     width: 60%;
     float: left;
     line-height: 30px;
-    clear:both;
+    clear: both;
     margin-bottom: 30px;
 }
 
@@ -134,7 +136,7 @@ h1, h2 {
 }
 
 hr {
-    border-top: 2px solid #4d2600 ;
+    border-top: 2px solid #4d2600;
     width: 100%;
     margin: 5px 0;
 }
@@ -160,52 +162,6 @@ hr {
     clear: both;
 }
 
-/* commented out to remove and test new grid
-
-#gallery {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-}
-
-.gallery-picture {
-    display: inline-block;
-    height: 225px;
-    text-align: center;
-    vertical-align: middle;
-    
-}
-
-.gallery-text {
-    display: inline-block;
-    min-height: 225px;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.gallery-text p {
-    line-height: 200px;
-}
-
-#gallery-1 {
-    background: url('../images/bake6.jpg') no-repeat center center;  
-}
-
-#gallery-2 {
-    background: url('../images/bake13.jpg') no-repeat center center;
-}
-
-#gallery-3 {
-    background: url('../images/bake2.jpg') no-repeat center center;
-}
-
-#gallery-4 {
-    background: url('../images/bake4.jpg') no-repeat center center;
-} 
-
-*/
 
 .cook-class {
     display: inline-block;
@@ -258,18 +214,18 @@ hr {
 #form-style {
     max-width: 50%;
     margin: 0 auto;
-    border:#4d2600 solid 1px;
+    border: #4d2600 solid 1px;
     background-color: #b35900;
     border-radius: 4px;
     text-align: center;
     color: #fff;
-    
+
 }
 
 .form-child {
     margin-top: 10px;
     margin-left: 30px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
     margin-right: 30px;
     text-align: center;
 }
@@ -277,7 +233,7 @@ hr {
 .submit-button {
     margin-top: 10px;
     margin-left: 30px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
     padding: 3px;
     border-radius: 1px;
     background-color: #ffe6cc;
@@ -304,10 +260,10 @@ footer {
     background-color: #4d2600;
     margin-top: 25px;
     border-radius: 3px 3px;
-    color:#fff;
+    color: #fff;
 }
 
-footer > p {
+footer>p {
     margin: 3px;
     padding: 2px;
 }
@@ -322,7 +278,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
-.social > li {
+.social>li {
     display: inline;
     text-align: justify;
 }
@@ -369,21 +325,24 @@ footer a:hover {
         margin: 0;
     }
 
-    #left-services, #right-services {
+    #left-services,
+    #right-services {
         width: 100%;
-        float:left;
+        float: left;
         padding: 0;
-        clear:both;
+        clear: both;
     }
 
-    .left-services-heading, .right-services-heading {
+    .left-services-heading,
+    .right-services-heading {
         width: 100%;
         line-height: 30px;
         margin-bottom: 30px;
         text-align: center;
     }
 
-    .right-services-heading h2, .right-services-heading p {
+    .right-services-heading h2,
+    .right-services-heading p {
         text-align: center;
     }
 
@@ -398,7 +357,7 @@ footer a:hover {
         width: 65%;
         height: 1050px;
         margin: 0 auto;
-        
+
     }
 
     .cook-class-text {
@@ -408,9 +367,9 @@ footer a:hover {
 
     .cook-class {
         width: 100%;
-        float:left;
+        float: left;
         margin: 3px;
-        
+
     }
 
 }
@@ -425,7 +384,7 @@ footer a:hover {
         width: 32%;
         margin-left: 5px;
         border-radius: 10%;
-        
+
     }
 
     #gallery-head {
@@ -443,17 +402,8 @@ footer a:hover {
         object-fit: contain;
         text-align: center;
     }
-
-    /*
-    #menu {
-        float: right;
-        display: block;
-        font-size: 110%;
-        letter-spacing: 1px;
-        line-height: 5px;
-    }
-*/
-    #menu > li {
+    
+    #menu>li {
         display: block;
         font-size: 110%;
         letter-spacing: 1px;
@@ -471,7 +421,7 @@ footer a:hover {
         width: 30%;
         margin-left: 5px;
         border-radius: 10%;
-        
+
     }
 
     #gallery-head {
@@ -493,17 +443,16 @@ footer a:hover {
     #center-container {
         max-width: 75%;
         height: 200px;
-        
+
     }
 
     #form-style {
         max-width: 100%;
         margin: 0 auto;
-        border:#4d2600 solid 1px;
+        border: #4d2600 solid 1px;
         background-color: #b35900;
         border-radius: 4px;
         color: #fff;
     }
 
 }
-
