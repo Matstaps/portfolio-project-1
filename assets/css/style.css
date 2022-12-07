@@ -26,7 +26,7 @@ h2 {
     margin-left: 20px;
 }
 
-/* navigation styles */
+
 
 #menu {
     float: right;
@@ -204,8 +204,6 @@ hr {
     padding: 20px 0 20px 0;
 }
 
-/* form styling */
-
 #form-primer {
     text-align: center;
     margin-bottom: 15px;
@@ -248,10 +246,6 @@ hr {
 td {
     padding-top: 5px;
 }
-
-
-
-/* footer */
 
 footer {
     height: 150px;
@@ -308,10 +302,6 @@ footer a:hover {
     max-width: 100%;
     height: 225px;
 }
-
-/* media queries */
-
-/* large to medium screens 1200px and down */
 
 @media screen and (max-width: 1200px) {
     #what-we-do {
@@ -374,8 +364,6 @@ footer a:hover {
 
 }
 
-/* 800 */
-
 @media screen and (max-width: 823px) {
 
     .love-bake {
@@ -402,7 +390,7 @@ footer a:hover {
         object-fit: contain;
         text-align: center;
     }
-    
+
     #menu>li {
         display: block;
         font-size: 110%;
@@ -410,8 +398,6 @@ footer a:hover {
         line-height: 35px;
     }
 }
-
-/*  500 */
 
 @media screen and (max-width: 500px) {
 
