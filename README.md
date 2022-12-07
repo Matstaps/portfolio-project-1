@@ -58,6 +58,7 @@ This site was written using HTML and CSS. Additional text styling was provided u
 
 <li>This section provides contact information for the subject</li>
 <li>It features an address, an email and social media links</li>
+<li>NB: the email present does not currently exist but acts as a placeholder</li>
 
 <h2>Testing</h2>
 
