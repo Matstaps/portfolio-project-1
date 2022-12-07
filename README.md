@@ -1,108 +1,103 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Project 1 - Raz Bakes
 
-Welcome Matstaps,
+A link to the live website is provided here.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Raz bakes is a website dedicated to showcase Raz' bakery products and for those who wish to learn to bake. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+It offers a gallery of examples bakes, details of the bakery classes offered and a means for users to register their interest in those classes. 
 
-## Gitpod Reminders
+This site was written using HTML and CSS. Additional text styling was provided using Google Font and Fontawesome
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+(put mock up ami.responsive here)
 
-`python3 -m http.server`
+## Features
 
-A blue button should appear to click: _Make Public_,
+<h3><li>Navigation </li></h3>
 
-Another blue button should appear to click: _Open Browser_.
+<li>The navigation bar sits within the header on the top-right of the page, alongside the Website name to the left</li>
+<li>The navigation links 'Home', 'About me', 'My Bakes', 'Class Times' and 'Contact Me' all link to the respective sections of the same page</li>
+<li>The navigation font is consitent with the website, and contrasts with the background color</li>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+(add screen grab of nav bar here)
 
-A blue button should appear to click: _Make Public_,
+<h3>Hero Image</h3>
 
-Another blue button should appear to click: _Open Browser_.
+<li>The hero image dsiplays three background images of the subject's baking</li>
+<li>The images contain set the thematic tone of the website, and visually compliment the website's aesthetic </li>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+(add image of hero image here)
 
-To log into the Heroku toolbelt CLI:
+<h3>About Me</h3>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+<li>The about me section introduces reasons for baking, background, and wish to teach others to bake </li>
+<li>It contains a background image to compliment the aesthetic of this page</li>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+(add about me image here)
 
-------
+<h3>A Selection of my bakes</h3>
 
-## Release History
+<li>This section presents a selection of images of the subject's baking.</li>
+<li>It is intended to inform the user of the variety of bakes produced by the subject</li>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+(image of gallery)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+<h3>Baking Classes</h3>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+<li>This section informs users of the baking services offered by the subject</li>
+<li>It provides information on the times and types of classes available</li>
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+(image of classes section)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+<h3>Contact Me</h3>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+<li>This section allows users to register their interest in the classes offered using an HTML form</li>
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+(image of form)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+<h3>Footer</h3>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+<li>This section provides contact information for the subject</li>
+<li>It features an address, an email and social media links</li>
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+<h2>Testing</h2>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<li>I tested this site in different browsers: Chrome and Edge</li>
+<li>I confirmed that this website was responsive across different devices using the devtools device toolbar</li>
+<li>I confirm that the sections, navigation, hero image, About me, A Selection of my bakes, baking classes, contact and footer are readable and understandable</li>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+<h2>Bugs</h2>
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+<li>I can confirm that no bugs were detected upon deployment</li>
+<li>Or Bug found and fixed via...</li>
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+<h2>Validator Testing</h2>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+<li>HTML</li>
+Upon validation using W3.org, a warning advised that the hero-image was missing a header. This was resolved by adding a header and setting the CSS to display:none.
 
-------
+(insert image here)
 
-## FAQ about the uptime script
+<li>No errors were found when passing through the Jigsaw generator</li>
 
-**Why have you added this script?**
+<li>Accessibility</li>
+I confirm that color and fonts are accessible and easy to read by running it through lighthouse in devtools
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+(insert image here)
 
-**How will this affect me?**
+<h3>Deployment</h3>
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+<b><li> The site was deployed to Github, the steps as follows: </li></b>
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+<li> In the github repository, navigate to the settings tab </li>
+<li> In the source section drop-down, select Master Branch</li>
+<li> The page then provides a link to the completed website </li>
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+<h3>Credits</h3>
 
-**So….?**
+Content
+Add ref to nav bar, hero image
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+Media
 
-**Can I opt out?**
+All images were provided by the subject
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
