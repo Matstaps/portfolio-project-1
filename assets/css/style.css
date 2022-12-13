@@ -250,7 +250,7 @@ td {
 }
 
 footer {
-    height: 150px;
+    
     text-align: center;
     font-family: Lato, sans-serif;
     background-color: #4d2600;
@@ -308,7 +308,6 @@ footer a:hover {
 @media screen and (max-width: 1200px) {
     #what-we-do {
         width: 65%;
-        height: 1050px;
         margin: 0 auto;
     }
 
@@ -347,9 +346,7 @@ footer a:hover {
 
     #cook-class-info {
         width: 65%;
-        height: 1050px;
         margin: 0 auto;
-
     }
 
     .cook-class-text {
@@ -361,7 +358,6 @@ footer a:hover {
         width: 100%;
         float: left;
         margin: 3px;
-
     }
 
 }
@@ -379,7 +375,6 @@ footer a:hover {
 
     #gallery-head {
         width: 65%;
-        height: 1050px;
         margin: 0 auto;
     }
 
@@ -414,7 +409,6 @@ footer a:hover {
 
     #gallery-head {
         width: 65%;
-        height: 2100px;
         margin: 0 auto;
     }
 
