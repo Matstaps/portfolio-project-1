@@ -167,6 +167,7 @@ hr {
     display: inline-block;
     height: 225px;
     width: 32%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
 
@@ -186,7 +187,7 @@ hr {
     margin-left: 2px;
 }
 
-.cook-class h4 {
+.cook-class h3 {
     text-align: center;
     font-weight: bold;
     color: #fff;
@@ -217,6 +218,7 @@ hr {
     border-radius: 4px;
     text-align: center;
     color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
 
