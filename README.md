@@ -1,6 +1,6 @@
 # Project 1 - Raz Bakes
 
-A link to the live website is provided here.
+A link to the live website is provided [here](https://matstaps.github.io/portfolio-project-1/).
 
 Raz bakes is a website dedicated to showcase Raz' bakery products and for those who wish to learn to bake. 
 
