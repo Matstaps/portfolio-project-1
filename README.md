@@ -18,47 +18,49 @@ This site was written using HTML and CSS. Additional text styling was provided u
 <li>The navigation links 'Home', 'About me', 'My Bakes', 'Class Times' and 'Contact Me' all link to the respective sections of the same page</li>
 <li>The navigation font is consitent with the website, and contrasts with the background color</li>
 
-(add screen grab of nav bar here)
+![Navigation bar image](assets/images/navbarimage.jpg)
 
 <h3>Hero Image</h3>
 
 <li>The hero image dsiplays three background images of the subject's baking</li>
 <li>The images contain set the thematic tone of the website, and visually compliment the website's aesthetic </li>
 
-(add image of hero image here)
+![Hero image image](assets/images/heroimageimage.jpg)
 
 <h3>About Me</h3>
 
 <li>The about me section introduces reasons for baking, background, and wish to teach others to bake </li>
 <li>It contains a background image to compliment the aesthetic of this page</li>
 
-(add about me image here)
+![About me image](assets/images/aboutmeimage1.jpg)
 
 <h3>A Selection of my bakes</h3>
 
 <li>This section presents a selection of images of the subject's baking.</li>
 <li>It is intended to inform the user of the variety of bakes produced by the subject</li>
 
-(image of gallery)
+![Gallery of bakes image](assets/images/gallerygrab1.jpg)
 
 <h3>Baking Classes</h3>
 
 <li>This section informs users of the baking services offered by the subject</li>
 <li>It provides information on the times and types of classes available</li>
 
-(image of classes section)
+![Baking class information image](assets/images/classessscreengrab1.jpg)
 
 <h3>Contact Me</h3>
 
 <li>This section allows users to register their interest in the classes offered using an HTML form</li>
 
-(image of form)
+![Contact form image](assets/images/contactformscreengrab.jpg)
 
 <h3>Footer</h3>
 
 <li>This section provides contact information for the subject</li>
 <li>It features an address, an email and social media links</li>
 <li>NB: the email present does not currently exist but acts as a placeholder</li>
+
+![Footer image](assets/images/footerscreengrab.jpg)
 
 <h2>Testing</h2>
 
@@ -83,7 +85,7 @@ Upon validation using W3.org, a warning advised that the hero-image was missing 
 <li>Accessibility</li>
 I confirm that color and fonts are accessible and easy to read by running it through lighthouse in devtools
 
-(insert image here)
+![Lighthouse results image](assets/images/lighthouseresults1.jpg)
 
 <h3>Deployment</h3>
 
