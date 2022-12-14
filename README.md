@@ -8,7 +8,7 @@ It offers a gallery of examples bakes, details of the bakery classes offered and
 
 This site was written using HTML and CSS. Additional text styling was provided using Google Font and Fontawesome.
 
-![amiresponsive image](assets/images/amiresponsiveimage1.jpg)
+![amiresponsive image](assets/images/amiresponsiveimage1.png)
 
 ## Features
 
