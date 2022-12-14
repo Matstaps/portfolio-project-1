@@ -76,9 +76,12 @@ This site was written using HTML and CSS. Additional text styling was provided u
 ## Validator Testing
 
 <li>HTML</li>
+
 Upon validation using [W3C HTML Validation Service](https://validator.w3.org/#validate_by_input), a warning advised that the hero-image was missing a header. This was resolved by adding a header and setting the CSS to display:none. Repeating the validation then confirmed there were no errors.
 
-<li>No errors were found when passing through the [Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input).</li>
+<li>CSS</li>
+
+No errors were found when passing through the [Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input).
 
 <li>Accessibility</li>
 
@@ -99,10 +102,9 @@ I confirmed that color and fonts are accessible and easy to read by running the 
 
 ### Content
 
-<li>Stylings of the Navigation Bar and About Me section were informed by CSS stylings used within the [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html) Website</li>
-<li>Icons were sourced from the [Font Awesome](https://fontawesome.com/)website.</li>
-<li>General HTML and CSS coding techniques were learned from the [Code Institute](https://codeinstitute.net/) tutorials and the [W3 Schools](https://www.w3schools.com/)website.</li>
-
+Stylings of the Navigation Bar and About Me section were informed by CSS stylings used within the  [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html) website.
+Icons were sourced from the [Font Awesome](https://fontawesome.com/)website.
+General HTML and CSS coding techniques were learned from the [Code Institute](https://codeinstitute.net/) tutorials and the [W3 Schools](https://www.w3schools.com/) website.
 
 ### Media
 
