@@ -22,14 +22,14 @@ This site was written using HTML and CSS. Additional text styling was provided u
 
 <h3>Hero Image</h3>
 
-<li>The hero image dsiplays three background images of the subject's baking</li>
-<li>The images contain set the thematic tone of the website, and visually compliment the website's aesthetic </li>
+<li>The hero image displays three background images of the subject's baking</li>
+<li>The images content set the thematic tone of the website, and visually compliment the website's aesthetic </li>
 
 ![Hero image image](assets/images/heroimageimage.jpg)
 
 <h3>About Me</h3>
 
-<li>The about me section introduces reasons for baking, background, and wish to teach others to bake </li>
+<li>The about me section introduces the subject's reasons for baking, background, and wish to teach others to bake </li>
 <li>It contains a background image to compliment the aesthetic of this page</li>
 
 ![About me image](assets/images/aboutmeimage1.jpg)
@@ -58,32 +58,31 @@ This site was written using HTML and CSS. Additional text styling was provided u
 
 <li>This section provides contact information for the subject</li>
 <li>It features an address, an email and social media links</li>
-<li>NB: the email present does not currently exist but acts as a placeholder</li>
+<li>NB: the email presented does not currently exist but acts as a placeholder for the link</li>
 
 ![Footer image](assets/images/footerscreengrab.jpg)
 
 <h2>Testing</h2>
 
-<li>I tested this site in different browsers: Chrome and Edge</li>
+<li>I tested this site in different browsers: Chrome, Edge and Safari</li>
 <li>I confirmed that this website was responsive across different devices using the devtools device toolbar</li>
 <li>I confirm that the sections, navigation, hero image, About me, A Selection of my bakes, baking classes, contact and footer are readable and understandable</li>
 
 <h2>Bugs</h2>
 
 <li>I can confirm that no bugs were detected upon deployment</li>
-<li>Or Bug found and fixed via...</li>
 
 <h2>Validator Testing</h2>
 
 <li>HTML</li>
-Upon validation using W3.org, a warning advised that the hero-image was missing a header. This was resolved by adding a header and setting the CSS to display:none.
+Upon validation using [W3C HTML Validation Service](https://validator.w3.org/#validate_by_input), a warning advised that the hero-image was missing a header. This was resolved by adding a header and setting the CSS to display:none. Repeat the validation then confirm there were no errors.
 
-(insert image here)
-
-<li>No errors were found when passing through the Jigsaw generator</li>
+<li>No errors were found when passing through the [Jigsaw CSS Validation Service (https://jigsaw.w3.org/css-validator/#validate_by_input).</li>
 
 <li>Accessibility</li>
-I confirm that color and fonts are accessible and easy to read by running it through lighthouse in devtools
+
+The colour scheme chosed was passed through the [Color Tool](https://m2.material.io/resources/color/#!/?view.left=1&view.right=0&primary.color=E65100&secondary.color=FFEB3B) website to check the color palette against accessibility.
+I confirm that color and fonts are accessible and easy to read by running it through Lighthouse in devtools.
 
 ![Lighthouse results image](assets/images/lighthouseresults1.jpg)
 
