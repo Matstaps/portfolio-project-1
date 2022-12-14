@@ -6,7 +6,7 @@ Raz bakes is a website dedicated to showcase Raz' bakery products and for those 
 
 It offers a gallery of examples bakes, details of the bakery classes offered and a means for users to register their interest in those classes. 
 
-This site was written using HTML and CSS. Additional text styling was provided using Google Font and Fontawesome
+This site was written using HTML and CSS. Additional text styling was provided using Google Font and Fontawesome.
 
 (put mock up ami.responsive here)
 
