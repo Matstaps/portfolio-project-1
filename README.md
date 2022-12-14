@@ -18,7 +18,7 @@ This site was written using HTML and CSS. Additional text styling was provided u
 <li>The navigation links 'Home', 'About me', 'My Bakes', 'Class Times' and 'Contact Me' all link to the respective sections of the same page</li>
 <li>The navigation font is consitent with the website, and contrasts with the background color</li>
 
-![Navigation bar image](assets/images/navbarimage.jpg)
+![Navigation bar image](assets/images/navbarimage1.jpg)
 
 <h3>Hero Image</h3>
 
@@ -46,7 +46,7 @@ This site was written using HTML and CSS. Additional text styling was provided u
 <li>This section informs users of the baking services offered by the subject</li>
 <li>It provides information on the times and types of classes available</li>
 
-![Baking class information image](assets/images/classessscreengrab1.jpg)
+![Baking class information image](assets/images/classesscreengrab1.jpg)
 
 <h3>Contact Me</h3>
 
