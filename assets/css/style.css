@@ -437,6 +437,11 @@ footer a:hover {
         text-align: center;
     }
 
+    #gallery-demo img {
+        display: inline-block;
+        max-width: 100%;
+    }
+
     #center-container {
         max-width: 75%;
         height: 200px;
