@@ -213,16 +213,21 @@ This site was written using HTML and CSS. Additional text styling was provided u
 
 Upon validation using [W3C HTML Validation Service](https://validator.w3.org/#validate_by_input), a warning advised that the hero-image was missing a header. This was resolved by adding a header and setting the CSS to display:none. Repeating the validation then confirmed there were no errors.
 
+![W3C HTML Validation results](assets/images/htmlvalidator.jpg)
+
 <li>CSS</li>
 
 No errors were found when passing through the [Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input).
+
+![Jigsaw CSS Validation results](assets/images/cssvalidator.jpg)
 
 <li>Accessibility</li>
 
 The colour scheme chosen was passed through the [Color Tool](https://m2.material.io/resources/color/#!/?view.left=1&view.right=0&primary.color=E65100&secondary.color=FFEB3B) website to check the color palette against accessibility.
 I confirmed that color and fonts are accessible and easy to read by running the wesbsite through Lighthouse in devtools.
 
-![Lighthouse results image](assets/images/lighthouseresults1.jpg)
+![Lighthouse desktop results](assets/images/lighthousedesktop.jpg)
+![Lighthouse mobile results](assets/images/lighthousemobile.jpg)
 
 ## Deployment
 
