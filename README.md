@@ -4,7 +4,7 @@
 
 A link to the live website is provided [here](https://matstaps.github.io/portfolio-project-1/).
 
-Raz bakes is a website dedicated to showcase the bakery products of Raz Yacobi, a hobby baker. The website is intended to offer a visual representation of the various cakes and baked goods that she produces, by means of a gallery. The website provides a brief introduction of the subject's rationale and influences for baking, within the about me section. This website provide information on a selection of as yet fictional baking classes in a learn to bake section and a means by which users can register their interest for these classes using a form. The footer section provides contains a fictional address, email and social links.
+Raz bakes is a website dedicated to showcase the bakery products of Raz Yacobi, a hobby baker. The website is intended to offer a visual representation of the various cakes and baked goods that she produces, by means of a gallery. The website provides a brief introduction of the subject's rationale and influences for baking, within the about me section. This website provides information on a selection of as yet fictional baking classes in a learn to bake section and a means by which users can register their interest for these classes using a form. The footer section provides contains a fictional address, email and social links.
 
 This website intends to allow the subject a means to showcase their future bakes, and provide a potential should they wish to expand their baking activities in the future by giving classes or adding a social media presence. 
 
@@ -54,7 +54,7 @@ This site was written using HTML and CSS. Additional text styling was provided u
 
 <ul>
    <li>The navigation bar sits within the header on the top-right of the page, alongside the Website name to the left.</li>
-   <li>The 'Raz Bakes' Logo sits to the left. It is designed to immediately inform the user of the page's name.</ul>
+   <li>The 'Raz Bakes' Logo sits to the left. It is designed to immediately inform the user of the page's name.</li>
    <li>The navigation links; 'Home', 'About me', 'My Bakes', 'Class Times' and 'Contact Me' all link to the respective sections of the same page.</li>
    <li>The navigation font is consitent with the website, and the colour palette contrasts with the background colour.</li>
    <li>This section is responsive, the navigation bar moves below the logo and stacks vertically upon smaller screens.</li>
@@ -68,6 +68,7 @@ This site was written using HTML and CSS. Additional text styling was provided u
     <li>The images are intended to immediately highlight a suggestion of the products offered for the user.</li>
     <li>The images contain baked products and highlight their natural colours and textures. The images' content sets the thematic tone of the website, and the colour palette therein visually compliments the website's aesthetic and colour palette.</li>
 </ul>
+
 ![Hero image image](assets/images/heroimageimage.jpg)
 
 ### About Me
@@ -226,7 +227,12 @@ No errors were found when passing through the [Jigsaw CSS Validation Service](ht
 The colour scheme chosen was passed through the [Color Tool](https://m2.material.io/resources/color/#!/?view.left=1&view.right=0&primary.color=E65100&secondary.color=FFEB3B) website to check the color palette against accessibility.
 I confirmed that color and fonts are accessible and easy to read by running the wesbsite through Lighthouse in devtools.
 
+*Lighthouse desktop results:
+
 ![Lighthouse desktop results](assets/images/lighthousedesktop.jpg)
+
+*Lighthouse mobile results: 
+
 ![Lighthouse mobile results](assets/images/lighthousemobile.jpg)
 
 ## Deployment
@@ -245,7 +251,7 @@ I confirmed that color and fonts are accessible and easy to read by running the 
 ### Content
 
 Stylings of the Navigation Bar and About Me section were informed by CSS stylings used within the  [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html) website.
-Icons were sourced from the [Font Awesome](https://fontawesome.com/)website.
+Icons were sourced from the [Font Awesome](https://fontawesome.com/) website.
 General HTML and CSS coding techniques were learned from the [Code Institute](https://codeinstitute.net/) tutorials and the [W3 Schools](https://www.w3schools.com/) website.
 
 ### Media
