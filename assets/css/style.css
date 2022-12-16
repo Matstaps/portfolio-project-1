@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
 
 * {
     padding: 0;
@@ -25,8 +25,6 @@ h2 {
     font-size: 4rem;
     margin-left: 20px;
 }
-
-
 
 #menu {
     float: right;
@@ -63,7 +61,7 @@ h2 {
     clear: both;
 }
 
-#hero-image>h2 {
+#hero-image > h2 {
     display: none;
 }
 
@@ -76,15 +74,15 @@ h2 {
 }
 
 #love-bake-1 {
-    background: url('../images/bake12.jpg') no-repeat center center;
+    background: url("../images/bake12.jpg") no-repeat center center;
 }
 
 #love-bake-2 {
-    background: url('../images/bake10.jpg') no-repeat center center;
+    background: url("../images/bake10.jpg") no-repeat center center;
 }
 
 #love-bake-3 {
-    background: url('../images/bake11.jpg') no-repeat center center;
+    background: url("../images/bake11.jpg") no-repeat center center;
 }
 
 .section-header {
@@ -162,14 +160,12 @@ hr {
     clear: both;
 }
 
-
 .cook-class {
     display: inline-block;
     height: 225px;
     width: 32%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: 3px 5px;
-
 }
 
 .cook-class-1 {
@@ -220,7 +216,6 @@ hr {
     text-align: center;
     color: #fff;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
 }
 
 .form-child {
@@ -260,7 +255,6 @@ td {
 }
 
 footer {
-
     text-align: center;
     font-family: Lato, sans-serif;
     background-color: #4d2600;
@@ -269,7 +263,7 @@ footer {
     color: #fff;
 }
 
-footer>p {
+footer > p {
     margin: 3px;
     padding: 2px;
 }
@@ -284,7 +278,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
-.social>li {
+.social > li {
     display: inline;
     text-align: justify;
 }
@@ -293,7 +287,7 @@ footer a:hover {
     font-size: 2.4rem;
     margin: 1px;
     padding: 2px;
-    color: #fff
+    color: #fff;
 }
 
 #gallery-head {
@@ -369,18 +363,15 @@ footer a:hover {
         float: left;
         margin-bottom: 10px;
     }
-
 }
 
 @media screen and (max-width: 823px) {
-
     .love-bake {
         display: inline-block;
         height: 275px;
         width: 32%;
         margin-left: 5px;
         border-radius: 10%;
-
     }
 
     #gallery-head {
@@ -398,7 +389,7 @@ footer a:hover {
         text-align: center;
     }
 
-    #menu>li {
+    #menu > li {
         display: block;
         font-size: 1.2rem;
         letter-spacing: 1px;
@@ -407,9 +398,8 @@ footer a:hover {
 }
 
 @media screen and (max-width: 500px) {
-
     #menu {
-        float:none;
+        float: none;
         text-align: center;
     }
 
@@ -419,7 +409,6 @@ footer a:hover {
         width: 30%;
         margin-left: 5px;
         border-radius: 10%;
-
     }
 
     #gallery-head {
@@ -446,7 +435,6 @@ footer a:hover {
     #center-container {
         max-width: 75%;
         height: 200px;
-
     }
 
     #form-style {
@@ -457,5 +445,4 @@ footer a:hover {
         border-radius: 4px;
         color: #fff;
     }
-
 }
