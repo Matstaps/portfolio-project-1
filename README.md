@@ -4,13 +4,13 @@
 
 A link to the live website is provided [here](https://matstaps.github.io/portfolio-project-1/).
 
-Raz bakes is a website dedicated to showcase the bakery products of Raz Yacobi, a hobby baker. The website is intended to offer a visual representation of the various cakes and baked goods that she produces, by means of a gallery. The website provides a brief introduction of the subject's rationale and influences for baking, within the about me section. This website provides information on a selection of as yet fictional baking classes in a learn to bake section and a means by which users can register their interest for these classes using a form. The footer section provides contains a fictional address, email and social links.
+Raz bakes is a website dedicated to showcase the bakery products of Raz Yacobi, a hobby baker. The website is intended to offer a visual representation of the various cakes and baked goods that she produces, by means of a gallery. The website provides a brief introduction of the subject's rationale and influences for baking, within the 'about me' section. This website provides information on a selection of as yet fictional baking classes in a 'baking classes' section and a means by which users can register their interest for these classes using a 'contact me' form. The footer section provides contains a fictional address, email and social links.
 
 This website intends to allow the subject a means to showcase their future bakes, and provide a potential should they wish to expand their baking activities in the future by giving classes or adding a social media presence. 
 
 This site was written using HTML and CSS. Additional text styling was provided using [Google Fonts](https://fonts.google.com/about) and [Font Awesome](https://fontawesome.com/).
 
-![amiresponsive image](assets/images/amiresponsiveimage1.png)
+![amiresponsive image](readme_images/amiresponsiveimage1.png)
 
 ## User Experience
 
@@ -57,10 +57,10 @@ This site was written using HTML and CSS. Additional text styling was provided u
    <li>The 'Raz Bakes' Logo sits to the left. It is designed to immediately inform the user of the page's name.</li>
    <li>The navigation links; 'Home', 'About me', 'My Bakes', 'Class Times' and 'Contact Me' all link to the respective sections of the same page.</li>
    <li>The navigation font is consitent with the website, and the colour palette contrasts with the background colour.</li>
-   <li>This section is responsive, the navigation bar moves below the logo and stacks vertically upon smaller screens.</li>
+   <li>This section is responsive, the navigation bar moves below the logo and stacks vertically upon smaller viewports.</li>
 </ul>
 
-![Navigation bar image](assets/images/navbarimage1.jpg)
+![Navigation bar image](readme_images/navbarimage1.jpg)
 
 ### Hero Image
 <ul>
@@ -69,17 +69,17 @@ This site was written using HTML and CSS. Additional text styling was provided u
     <li>The images contain baked products and highlight their natural colours and textures. The images' content sets the thematic tone of the website, and the colour palette therein visually compliments the website's aesthetic and colour palette.</li>
 </ul>
 
-![Hero image image](assets/images/heroimageimage.jpg)
+![Hero image image](readme_images/heroimageimage.jpg)
 
 ### About Me
 
 <ul>
     <li>The about me section introduces the subject's reasons for baking, baking background, and expresses their wish to teach others who are interested in baking. </li>
     <li>It contains a background image of an example of a baked bread to compliment the aesthetic of this webpage.</li>
-    <li>This section is presents in three columns, with text to the left and right, and an image in the centre. It is responsive, with the columns stacking upon each other on smaller screens.</li>
+    <li>This section is presented in three columns, with text to the left and right, and an image in the centre. It is responsive, with the columns stacking upon each other on smaller screens.</li>
 </ul>
 
-![About me image](assets/images/aboutmeimage1.jpg)
+![About me image](readme_images/aboutmeimage1.jpg)
 
 ### A Selection of my bakes
 
@@ -89,7 +89,7 @@ This site was written using HTML and CSS. Additional text styling was provided u
     <li>The section is responsive, moving from four, to two, to a single column as the viewport reduces.</li>
 </ul>
 
-![Gallery of bakes image](assets/images/gallerygrab1.jpg)
+![Gallery of bakes image](readme_images/gallerygrab1.jpg)
 
 ### Baking Classes
 
@@ -100,33 +100,33 @@ This site was written using HTML and CSS. Additional text styling was provided u
     <li>This section is responsive, the boxes stack upon each other on smaller viewports.</li>
 </ul>
 
-![Baking class information image](assets/images/classesscreengrab1.jpg)
+![Baking class information image](readme_images/classesscreengrab1.jpg)
 
 ### Contact Me
 
 <ul>
     <li>This section allows users to register their interest in the classes offered using an HTML form.</li>
     <li>The user is required to provide their first name, last name, email address, and specify which baking class they are interested in.</li>
-    <li>The form contains white text and inpit boxes on a background color from the colour palette so as to be easily readable.</li>
-    <li>The form has been test to submit correctly.</li>
+    <li>The form contains white text and input boxes on a background colour from the colour palette so as to be easily readable.</li>
+    <li>The form has been tested to submit correctly.</li>
 </ul>
 
-![Contact form image](assets/images/contactformscreengrab.jpg)
+![Contact form image](readme_images/contactformscreengrab.jpg)
 
 ### Footer
 
 <ul>
     <li>This section provides contact information for the subject.</li>
     <li>It features an address, an email and social media links.</li>
-    <li>Each of the social media icons and email address are target linked. 9NB: the email presented does not currently exist, nor do the social media icons link to active accounts, but act as placeholders for furure links).</li>
+    <li>Each of the social media icons and email address are target linked. (NB: the email presented does not currently exist, nor do the social media icons link to active accounts, but act as placeholders for furure links).</li>
     <li>The section places white text upon a background colour from the colour palette so as to be easily readable. The icons for social media are sourced from Font Awesome.</li>
 </ul>
 
-![Footer image](assets/images/footerscreengrab.jpg)
+![Footer image](readme_images/footerscreengrab.jpg)
 
 ### Supporting the user experience
 
-<li>The features intend to satisfy the aims mentions in the user stories. This single page site is designed to be easily navigable, with links to each section. Its is clearly themed with a consitent design throughout the page, and textual elements are concise.</li>
+<li>The features intend to satisfy the aims mentioeds in the user stories. This single page site is designed to be easily navigable, with links to each section. It is clearly themed with a consitent design throughout the page, and the textual elements are concise.</li>
 
 ### Potential Future Features
 
@@ -214,26 +214,26 @@ This site was written using HTML and CSS. Additional text styling was provided u
 
 Upon validation using [W3C HTML Validation Service](https://validator.w3.org/#validate_by_input), a warning advised that the hero-image was missing a header. This was resolved by adding a header and setting the CSS to display:none. Repeating the validation then confirmed there were no errors.
 
-![W3C HTML Validation results](assets/images/htmlvalidator.jpg)
+![W3C HTML Validation results](readme_images/images/htmlvalidator.jpg)
 
 <li>CSS</li>
 
 No errors were found when passing through the [Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input).
 
-![Jigsaw CSS Validation results](assets/images/cssvalidator.jpg)
+![Jigsaw CSS Validation results](readme_images/cssvalidator.jpg)
 
 <li>Accessibility</li>
 
 The colour scheme chosen was passed through the [Color Tool](https://m2.material.io/resources/color/#!/?view.left=1&view.right=0&primary.color=E65100&secondary.color=FFEB3B) website to check the color palette against accessibility.
-I confirmed that color and fonts are accessible and easy to read by running the wesbsite through Lighthouse in devtools.
+I confirmed that color and fonts are accessible and easy to read by passing the website through Lighthouse in devtools.
 
 *Lighthouse desktop results:
 
-![Lighthouse desktop results](assets/images/lighthousedesktop.jpg)
+![Lighthouse desktop results](readme_images/lighthousedesktop.jpg)
 
 *Lighthouse mobile results: 
 
-![Lighthouse mobile results](assets/images/lighthousemobile.jpg)
+![Lighthouse mobile results](readme_images/lighthousemobile.jpg)
 
 ## Deployment
 
@@ -262,6 +262,6 @@ All images were provided by the subject.
 
 <ul>
     <li>Thank you to my mentor Akshat Garg for help and direction to useful resources.</li>
-    <li>Thank you to the tutors and staff at Code Institue for continued support.</li>
+    <li>Thank you to the tutors and staff at Code Institute for continued support.</li>
 </ul>
 
