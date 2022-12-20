@@ -233,5 +233,3 @@ All images were provided by the subject.
 
 * Thank you to my mentor Akshat Garg for help and direction to useful resources.
 * Thank you to the tutors and staff at Code Institute for continued support.
-
-
